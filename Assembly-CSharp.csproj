@@ -49,14 +49,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DenysAlmaral\CityPeople\Demo_Scenes\Scripts-construction\ToolConfig.cs" />
-    <Compile Include="Assets\DenysAlmaral\CityPeople\Scripts\CityPeople.cs" />
-    <Compile Include="Assets\DenysAlmaral\CityPeople\Demo_Scenes\Scripts-construction\SwapAndToolController.cs" />
-    <Compile Include="Assets\DenysAlmaral\CityPeople\Demo_Scenes\Scripts\PackageExporterRefs.cs" />
+    <Compile Include="Assets\Models\Characters\DenysAlmaral\CityPeople\Demo_Scenes\Scripts-construction\SwapAndToolController.cs" />
+    <Compile Include="Assets\Models\Characters\DenysAlmaral\CityPeople\Demo_Scenes\Scripts\PackageExporterRefs.cs" />
+    <Compile Include="Assets\Models\Characters\DenysAlmaral\CityPeople\Scripts\CityPeople.cs" />
+    <Compile Include="Assets\Models\Characters\DenysAlmaral\CityPeople\Demo_Scenes\Scripts-construction\ToolConfig.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Trees Package Lite\ReadMe.txt" />
-    <None Include="Assets\DenysAlmaral\CityPeople\URP&amp;Built-in\Readme.txt" />
+    <None Include="Assets\Models\Environment\Trees Package Lite\ReadMe.txt" />
+    <None Include="Assets\Models\Characters\DenysAlmaral\CityPeople\URP&amp;Built-in\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
