@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 07e3b9f5858b4e341adaf542f2018d7a
+guid: 6f137c783c0700948923fe71d167cb32
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,43 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: building 3 roof
-    second: {fileID: 2100000, guid: 1cb943859af95d84a8a71f7bb1c9499c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: building3
-    second: {fileID: 2100000, guid: e98987dc1458ff544a66ba5fb29816c9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: building3 boxes
-    second: {fileID: 2100000, guid: a5df9105b2039e04cb9a8617e42b9bb6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: building3 door
-    second: {fileID: 2100000, guid: 897c505ed88472542bd04c6c48b6620f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: building3 windows emission
-    second: {fileID: 2100000, guid: f67349e0fd216dd439fad037d3b7de28, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: building3 windows glass_
-    second: {fileID: 2100000, guid: ce4abf3385f07ec41884c6cf9c3afab3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: door handle
-    second: {fileID: 2100000, guid: e8de105eaed679843ab8649a3436df43, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: windows and door edges
-    second: {fileID: 2100000, guid: 3a45ebd3c1b1ed24f8b9ccd2d2b5b4aa, type: 2}
+      name: KEY
+    second: {fileID: 2100000, guid: 29653f1af024ec041882178ca2fc91dd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
