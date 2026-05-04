@@ -1,7 +1,8 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 /// <summary>
-/// Attach to the Main Camera. Raycasts from screen center each frame.
+/// Attach to the Main Camera. Raycasts from the mouse cursor position each frame.
 /// Highlights any InteractableObject in range and triggers interaction on left-click.
 /// </summary>
 [RequireComponent(typeof(Camera))]
@@ -9,6 +10,7 @@ public class PlayerInteraction : MonoBehaviour
 {
     [Header("Raycast")]
     [SerializeField] private float interactionRange = 3f;
+    [SerializeField] private float interactionRadius = 0.1f;
     [SerializeField] private LayerMask interactableLayers = ~0;
 
     [Header("UI")]
@@ -28,18 +30,17 @@ public class PlayerInteraction : MonoBehaviour
     {
         UpdateRaycast();
 
-        if (_currentTarget != null && Input.GetMouseButtonDown(0))
+        if (_currentTarget != null && Mouse.current.leftButton.wasPressedThisFrame)
             _currentTarget.OnInteract(gameObject);
     }
 
     private void UpdateRaycast()
     {
-        // Cast from the exact centre of the viewport (crosshair position)
-        Ray ray = _cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+        Ray ray = _cam.ScreenPointToRay(Mouse.current.position.ReadValue());
 
         Debug.DrawRay(ray.origin, ray.direction * interactionRange, Color.red, 0.1f);
 
-        if (Physics.Raycast(ray, out RaycastHit hit, interactionRange, interactableLayers))
+        if (Physics.SphereCast(ray, interactionRadius, out RaycastHit hit, interactionRange, interactableLayers))
         {
             Debug.Log($"HIT: {hit.collider.gameObject.name} at distance {hit.distance}");
 
