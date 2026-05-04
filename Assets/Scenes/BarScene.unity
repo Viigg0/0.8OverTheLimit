@@ -119,6 +119,97 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &33114823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33114824}
+  - component: {fileID: 33114826}
+  - component: {fileID: 33114825}
+  m_Layer: 0
+  m_Name: Cylinder.003 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &33114824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33114823}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.1353957, y: 0.694023, z: -0.69402325, w: 0.13539532}
+  m_LocalPosition: {x: -3.72, y: 35.59, z: 6.52}
+  m_LocalScale: {x: 710.79, y: 710.79, z: 230.46846}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 334264916}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -157.922}
+--- !u!23 &33114825
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33114823}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9be50f9dc3528074aad6391636549564, type: 2}
+  - {fileID: 2100000, guid: 0955c56a143507b45ba1c24c7c7bb3c2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &33114826
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33114823}
+  m_Mesh: {fileID: 6239881831769578202, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
 --- !u!1001 &86306546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -313,116 +404,122 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: 53
+      addedObject: {fileID: 33114824}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: 75
+      addedObject: {fileID: 2056117073}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2141766189}
+      addedObject: {fileID: 2141766191}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2141766191}
-    - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 86306577}
+      addedObject: {fileID: 2141766194}
     - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 86306581}
-    - targetCorrespondingSourceObject: {fileID: -8380157826906577798, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1106416883}
+      addedObject: {fileID: 86306585}
     - targetCorrespondingSourceObject: {fileID: -8380157826906577798, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1106416885}
-    - targetCorrespondingSourceObject: {fileID: 2800250516343163423, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -8380157826906577798, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 160272070}
+      addedObject: {fileID: 1106416888}
     - targetCorrespondingSourceObject: {fileID: 2800250516343163423, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 160272072}
-    - targetCorrespondingSourceObject: {fileID: 3849762623622064168, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 2800250516343163423, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 86306574}
+      addedObject: {fileID: 160272075}
     - targetCorrespondingSourceObject: {fileID: 3849762623622064168, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 86306576}
-    - targetCorrespondingSourceObject: {fileID: 6512510688612296998, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 3849762623622064168, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 616773683}
+      addedObject: {fileID: 86306584}
     - targetCorrespondingSourceObject: {fileID: 6512510688612296998, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 616773685}
-    - targetCorrespondingSourceObject: {fileID: -5546747315237514756, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6512510688612296998, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2119054676}
+      addedObject: {fileID: 616773688}
     - targetCorrespondingSourceObject: {fileID: -5546747315237514756, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2119054678}
-    - targetCorrespondingSourceObject: {fileID: 6919683763462532184, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -5546747315237514756, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 810824237}
+      addedObject: {fileID: 2119054681}
     - targetCorrespondingSourceObject: {fileID: 6919683763462532184, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 810824239}
-    - targetCorrespondingSourceObject: {fileID: 5245042011116262203, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6919683763462532184, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 844634542}
+      addedObject: {fileID: 810824242}
     - targetCorrespondingSourceObject: {fileID: 5245042011116262203, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 844634544}
-    - targetCorrespondingSourceObject: {fileID: -6577237425059042219, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 5245042011116262203, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 532200962}
+      addedObject: {fileID: 844634547}
     - targetCorrespondingSourceObject: {fileID: -6577237425059042219, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 532200964}
-    - targetCorrespondingSourceObject: {fileID: 4214726985332892257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -6577237425059042219, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 587044157}
+      addedObject: {fileID: 532200967}
     - targetCorrespondingSourceObject: {fileID: 4214726985332892257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 587044159}
-    - targetCorrespondingSourceObject: {fileID: 2971542036940430761, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 4214726985332892257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 156330990}
+      addedObject: {fileID: 587044162}
     - targetCorrespondingSourceObject: {fileID: 2971542036940430761, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 156330992}
-    - targetCorrespondingSourceObject: {fileID: -4636300777304409883, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 2971542036940430761, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1960518350}
+      addedObject: {fileID: 156330995}
     - targetCorrespondingSourceObject: {fileID: -4636300777304409883, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1960518352}
-    - targetCorrespondingSourceObject: {fileID: -3798597711559607027, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -4636300777304409883, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1817850979}
+      addedObject: {fileID: 1960518355}
     - targetCorrespondingSourceObject: {fileID: -3798597711559607027, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1817850981}
-    - targetCorrespondingSourceObject: {fileID: -8383124558419344257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -3798597711559607027, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 872673432}
+      addedObject: {fileID: 1817850984}
     - targetCorrespondingSourceObject: {fileID: -8383124558419344257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 872673434}
-    - targetCorrespondingSourceObject: {fileID: 7833249854982934595, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -8383124558419344257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1178040352}
+      addedObject: {fileID: 872673437}
     - targetCorrespondingSourceObject: {fileID: 7833249854982934595, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1178040354}
-    - targetCorrespondingSourceObject: {fileID: -3477458294799913631, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7833249854982934595, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1468658211}
+      addedObject: {fileID: 1178040357}
     - targetCorrespondingSourceObject: {fileID: -3477458294799913631, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1468658213}
-    - targetCorrespondingSourceObject: {fileID: -6064153176478479626, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+    - targetCorrespondingSourceObject: {fileID: -3477458294799913631, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 899527571}
+      addedObject: {fileID: 1468658216}
     - targetCorrespondingSourceObject: {fileID: -6064153176478479626, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 899527573}
+    - targetCorrespondingSourceObject: {fileID: -6064153176478479626, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 899527576}
   m_SourcePrefab: {fileID: 100100000, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
 --- !u!1 &86306547 stripped
 GameObject:
@@ -514,20 +611,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8513859187771203891, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
   m_PrefabInstance: {fileID: 86306546}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &86306574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
-  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &86306576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -549,20 +632,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 0.000000007712722, y: -4.2635626e-10, z: 0.009398627}
---- !u!114 &86306577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
-  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &86306581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -584,18 +653,32 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 0.000000007712722, y: -4.2635626e-10, z: 0.009398627}
---- !u!114 &156330990
+--- !u!114 &86306584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306553}
+  m_GameObject: {fileID: 86306560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!114 &86306585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &156330992
@@ -619,18 +702,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: -4.2635626e-10, z: 0.009398627}
---- !u!114 &160272070
+--- !u!114 &156330995
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306561}
+  m_GameObject: {fileID: 86306553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &160272072
@@ -654,6 +737,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: 0.000000029375967, z: 0.009398627}
+--- !u!114 &160272075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +764,7 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
+  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -745,7 +843,8 @@ Transform:
   m_LocalPosition: {x: 1.63, y: 4.435, z: -2.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 378168405}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 82.26, z: 0}
 --- !u!114 &330585547
@@ -810,6 +909,70 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   promptUI: {fileID: 661975228}
+--- !u!114 &330585549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c37d8abb87a5149a2753c64ea6a32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraSway
+  maxAmplitude: 0.12
+  maxFrequency: 1.8
+--- !u!4 &334264916 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &378168404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378168405}
+  - component: {fileID: 378168406}
+  m_Layer: 0
+  m_Name: IntoxicationPostFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378168405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378168404}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 330585546}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &378168406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378168404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5fe4a3d65d04e479f7597a522f81d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IntoxicationPostFX
+  volume: {fileID: 832575518}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,20 +1100,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!114 &532200962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
-  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &532200964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -972,6 +1121,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: -4.2635626e-10, z: 0.009398627}
+--- !u!114 &532200967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1001 &557369495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1041,20 +1204,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc8c8f342f71a7439ac0579aa86f030, type: 3}
---- !u!114 &587044157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
-  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &587044159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1076,18 +1225,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: -0.00000003022868, z: 0.009398627}
---- !u!114 &616773683
+--- !u!114 &587044162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306559}
+  m_GameObject: {fileID: 86306554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &616773685
@@ -1111,6 +1260,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: -4.2635626e-10, z: 0.009398627}
+--- !u!114 &616773688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1 &661975227
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,6 +1287,7 @@ GameObject:
   - component: {fileID: 661975230}
   - component: {fileID: 661975229}
   - component: {fileID: 661975228}
+  - component: {fileID: 661975233}
   m_Layer: 5
   m_Name: InteractionCanvas
   m_TagString: Untagged
@@ -1221,6 +1385,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 800158462}
+  - {fileID: 1955264142}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1228,6 +1393,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &661975233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661975227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94874e5ca1e2ffc4b835b1b9c8fa6316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BACDisplayUI
+  label: {fileID: 1955264140}
 --- !u!1 &800158461
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,20 +1482,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800158461}
   m_CullTransparentMesh: 1
---- !u!114 &810824237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
-  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &810824239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1339,6 +1503,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: -4.2635626e-10, z: 0.009398627}
+--- !u!114 &810824242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1388,20 +1566,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &844634542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306556}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
-  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &844634544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1423,18 +1587,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: 0.000000029375967, z: 0.009398627}
---- !u!114 &872673432
+--- !u!114 &844634547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306550}
+  m_GameObject: {fileID: 86306556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &872673434
@@ -1458,18 +1622,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: -4.2635626e-10, z: 0.009398627}
---- !u!114 &899527571
+--- !u!114 &872673437
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306547}
+  m_GameObject: {fileID: 86306550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &899527573
@@ -1493,18 +1657,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: -0.00000002954018, y: -4.2635626e-10, z: 0.009398627}
---- !u!114 &1106416883
+--- !u!114 &899527576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306562}
+  m_GameObject: {fileID: 86306547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &1106416885
@@ -1528,18 +1692,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: -0.0000000034631484, y: -4.2635626e-10, z: 0.009398627}
---- !u!114 &1178040352
+--- !u!114 &1106416888
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306549}
+  m_GameObject: {fileID: 86306562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &1178040354
@@ -1563,6 +1727,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: -4.2635626e-10, z: 0.009398627}
+--- !u!114 &1178040357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1 &1243203313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,20 +1878,133 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1468658211
+--- !u!1 &1449695123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1449695126}
+  - component: {fileID: 1449695125}
+  - component: {fileID: 1449695124}
+  m_Layer: 0
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1449695124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306548}
+  m_GameObject: {fileID: 1449695123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
-  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!108 &1449695125
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449695123}
+  m_Enabled: 1
+  serializedVersion: 12
+  m_Type: 2
+  m_Color: {r: 0.9960785, g: 0.9960785, b: 0.89019614, a: 1}
+  m_Intensity: 5
+  m_Range: 100
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1449695126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449695123}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.29, y: 7.659, z: -8.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1468658213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1735,6 +2026,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 0.000000015163304, y: -0.00000003022868, z: 0.009398627}
+--- !u!114 &1468658216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1 &1577433357
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,6 +2111,177 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577433357}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1594704330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1594704333}
+  - component: {fileID: 1594704332}
+  - component: {fileID: 1594704331}
+  m_Layer: 0
+  m_Name: Point Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1594704331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594704330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!108 &1594704332
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594704330}
+  m_Enabled: 1
+  serializedVersion: 12
+  m_Type: 2
+  m_Color: {r: 0.9960785, g: 0.9960785, b: 0.89019614, a: 1}
+  m_Intensity: 5
+  m_Range: 100
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1594704333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594704330}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13, y: 7.659, z: -9.06}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1596010947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596010949}
+  - component: {fileID: 1596010948}
+  m_Layer: 0
+  m_Name: GameStateManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1596010948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596010947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ecca81b047f61418310cf61682d3ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameStateManager
+--- !u!4 &1596010949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596010947}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1890,28 +2366,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1971207570}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1971207571}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1971207572}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971207574}
   m_SourcePrefab: {fileID: 100100000, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
---- !u!114 &1817850979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
-  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &1817850981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1933,20 +2395,284 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 2.6214184e-10, y: -4.2635626e-10, z: 0.009398627}
---- !u!114 &1960518350
+--- !u!114 &1817850984
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306552}
+  m_GameObject: {fileID: 86306551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!1 &1835608755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835608758}
+  - component: {fileID: 1835608757}
+  - component: {fileID: 1835608756}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1835608756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835608755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!108 &1835608757
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835608755}
+  m_Enabled: 1
+  serializedVersion: 12
+  m_Type: 2
+  m_Color: {r: 0.9960785, g: 0.9960785, b: 0.8941177, a: 1}
+  m_Intensity: 5
+  m_Range: 100
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &1835608758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835608755}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.487, y: 7.659, z: -4.539}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1955264139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1955264142}
+  - component: {fileID: 1955264141}
+  - component: {fileID: 1955264140}
+  m_Layer: 5
+  m_Name: BACLabel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1955264140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955264139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1955264141
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955264139}
+  m_CullTransparentMesh: 1
+--- !u!224 &1955264142
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955264139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 661975232}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -300, y: 174}
+  m_SizeDelta: {x: -684, y: -418}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1960518352
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1968,25 +2694,25 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: 0.0000000011934644, y: -4.2635626e-10, z: 0.009398627}
---- !u!1 &1971207568 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
-  m_PrefabInstance: {fileID: 1653329461}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1971207570
+--- !u!114 &1960518355
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971207568}
+  m_GameObject: {fileID: 86306552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Leave
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!1 &1971207568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
+  m_PrefabInstance: {fileID: 1653329461}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1971207571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2022,20 +2748,413 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2119054676
+--- !u!114 &1971207574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306558}
+  m_GameObject: {fileID: 1971207568}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: 258a5564489f2cb49a58b79686aa3faf, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
-  interactionPrompt: Left Click to Drink Beer
+  m_EditorClassIdentifier: Assembly-CSharp::KeyItem
+  interactionPrompt: Left Click to Leave
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+  itemName: Key
+  OnPickedUp:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &2008390650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2008390653}
+  - component: {fileID: 2008390652}
+  - component: {fileID: 2008390651}
+  m_Layer: 0
+  m_Name: Point Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2008390651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008390650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+--- !u!108 &2008390652
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008390650}
+  m_Enabled: 1
+  serializedVersion: 12
+  m_Type: 2
+  m_Color: {r: 0.9960785, g: 0.9960785, b: 0.89019614, a: 1}
+  m_Intensity: 5
+  m_Range: 100
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize2D: {x: 0.5, y: 0.5}
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
+--- !u!4 &2008390653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008390650}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.219, y: 7.659, z: -8.606}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2056117072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2056117073}
+  - component: {fileID: 2056117075}
+  - component: {fileID: 2056117074}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2056117073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056117072}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -27.25, y: 0, z: 0}
+  m_LocalScale: {x: 996.11084, y: 996.11084, z: 996.11084}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 334264916}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2056117074
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056117072}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0955c56a143507b45ba1c24c7c7bb3c2, type: 2}
+  - {fileID: 2100000, guid: fb9f2de6d95820f43baef2187ec463e2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2056117075
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056117072}
+  m_Mesh: {fileID: -462981019419857548, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!1 &2081212742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081212746}
+  - component: {fileID: 2081212745}
+  - component: {fileID: 2081212744}
+  - component: {fileID: 2081212743}
+  m_Layer: 0
+  m_Name: AmbientAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2081212743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081212742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 547573fc392d6ce469272fc93ec41303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BarAmbientAudio
+  ambientClip: {fileID: 8300000, guid: 4ebf0c8e00ca3654d825da677b1958ef, type: 3}
+  soberVolume: 0.75
+  drunkVolume: 1
+--- !u!169 &2081212744
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081212742}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.22727273
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &2081212745
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081212742}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &2081212746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081212742}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2119054678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2057,18 +3176,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: -0.00000001463902, y: 0.000000029375967, z: 0.009398627}
---- !u!114 &2141766189
+--- !u!114 &2119054681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86306564}
+  m_GameObject: {fileID: 86306558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
   interactionPrompt: Left Click to Drink Beer
   outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!65 &2141766191
@@ -2092,6 +3211,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.03, y: 0.020000001, z: 0.038797252}
   m_Center: {x: -0.0000000034631484, y: 0.000000029375967, z: 0.009398627}
+--- !u!114 &2141766194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc29db57a7b7984bb489112e6b7885e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DrinkableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2104,3 +3237,9 @@ SceneRoots:
   - {fileID: 1653329461}
   - {fileID: 1577433360}
   - {fileID: 661975232}
+  - {fileID: 1596010949}
+  - {fileID: 1835608758}
+  - {fileID: 2008390653}
+  - {fileID: 1449695126}
+  - {fileID: 1594704333}
+  - {fileID: 2081212746}

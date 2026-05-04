@@ -5,6 +5,19 @@
 [Bb]uilds/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
+.DS_Store
+
+# Claude-specific
+CLAUDE.md
+.claude/
+
+# Unity recovery folder
+Assets/_Recovery/
+Assets/_Recovery.meta
+
+# Auto-generated IDE project files (contain machine-specific paths)
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
 
 *.pidb.meta
 *.pdb.meta
