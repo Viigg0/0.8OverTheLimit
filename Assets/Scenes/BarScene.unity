@@ -167,13 +167,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8383124558419344257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8380157826906577798, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6733177361254619370, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6577237425059042219, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer9
+      objectReference: {fileID: 0}
+    - target: {fileID: -6064153176478479626, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer17
+      objectReference: {fileID: 0}
     - target: {fileID: -6039417817715823231, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5.09
       objectReference: {fileID: 0}
+    - target: {fileID: -5546747315237514756, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4636300777304409883, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer12
+      objectReference: {fileID: 0}
     - target: {fileID: -4096120871940991593, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5.09
+      objectReference: {fileID: 0}
+    - target: {fileID: -3798597711559607027, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer13
+      objectReference: {fileID: 0}
+    - target: {fileID: -3477458294799913631, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer16
       objectReference: {fileID: 0}
     - target: {fileID: -3216998209466556742, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -183,26 +219,46 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7156c965e119950498e022f5aaac483a, type: 2}
+    - target: {fileID: 65702495048144492, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 330939144036027221, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5.09
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: m_Name
-      value: bar3
+      value: bar
       objectReference: {fileID: 0}
     - target: {fileID: 1395907985004231953, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5.09
       objectReference: {fileID: 0}
+    - target: {fileID: 2800250516343163423, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer3
+      objectReference: {fileID: 0}
     - target: {fileID: 2915357609019638705, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7156c965e119950498e022f5aaac483a, type: 2}
+    - target: {fileID: 2971542036940430761, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849762623622064168, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer4
+      objectReference: {fileID: 0}
     - target: {fileID: 4008791811287642139, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7156c965e119950498e022f5aaac483a, type: 2}
+    - target: {fileID: 4214726985332892257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer10
+      objectReference: {fileID: 0}
     - target: {fileID: 5021228346462164004, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5.09
@@ -211,10 +267,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 5.09
       objectReference: {fileID: 0}
+    - target: {fileID: 5245042011116262203, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6512510688612296998, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer5
+      objectReference: {fileID: 0}
     - target: {fileID: 6829333093618665122, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7156c965e119950498e022f5aaac483a, type: 2}
+    - target: {fileID: 6919683763462532184, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer7
+      objectReference: {fileID: 0}
     - target: {fileID: 7534246568528090362, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: m_LocalPosition.y
       value: 5.09
@@ -223,10 +291,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7156c965e119950498e022f5aaac483a, type: 2}
+    - target: {fileID: 7833249854982934595, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer15
+      objectReference: {fileID: 0}
     - target: {fileID: 8100320773420232829, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7156c965e119950498e022f5aaac483a, type: 2}
+    - target: {fileID: 8513859187771203891, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      propertyPath: m_Name
+      value: Beer
+      objectReference: {fileID: 0}
     - target: {fileID: 8730303016566787287, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -238,8 +314,350 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2141766189}
+    - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2141766188}
+    - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 86306577}
+    - targetCorrespondingSourceObject: {fileID: -6733177361254619370, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 86306576}
+    - targetCorrespondingSourceObject: {fileID: -8380157826906577798, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1106416883}
+    - targetCorrespondingSourceObject: {fileID: -8380157826906577798, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1106416882}
+    - targetCorrespondingSourceObject: {fileID: 2800250516343163423, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 160272070}
+    - targetCorrespondingSourceObject: {fileID: 2800250516343163423, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 160272069}
+    - targetCorrespondingSourceObject: {fileID: 3849762623622064168, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 86306574}
+    - targetCorrespondingSourceObject: {fileID: 3849762623622064168, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 86306573}
+    - targetCorrespondingSourceObject: {fileID: 6512510688612296998, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 616773683}
+    - targetCorrespondingSourceObject: {fileID: 6512510688612296998, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 616773682}
+    - targetCorrespondingSourceObject: {fileID: -5546747315237514756, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2119054676}
+    - targetCorrespondingSourceObject: {fileID: -5546747315237514756, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2119054675}
+    - targetCorrespondingSourceObject: {fileID: 6919683763462532184, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 810824237}
+    - targetCorrespondingSourceObject: {fileID: 6919683763462532184, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 810824236}
+    - targetCorrespondingSourceObject: {fileID: 5245042011116262203, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 844634542}
+    - targetCorrespondingSourceObject: {fileID: 5245042011116262203, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 844634541}
+    - targetCorrespondingSourceObject: {fileID: -6577237425059042219, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 532200962}
+    - targetCorrespondingSourceObject: {fileID: -6577237425059042219, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 532200961}
+    - targetCorrespondingSourceObject: {fileID: 4214726985332892257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 587044157}
+    - targetCorrespondingSourceObject: {fileID: 4214726985332892257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 587044156}
+    - targetCorrespondingSourceObject: {fileID: 2971542036940430761, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 156330990}
+    - targetCorrespondingSourceObject: {fileID: 2971542036940430761, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 156330989}
+    - targetCorrespondingSourceObject: {fileID: -4636300777304409883, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1960518350}
+    - targetCorrespondingSourceObject: {fileID: -4636300777304409883, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1960518349}
+    - targetCorrespondingSourceObject: {fileID: -3798597711559607027, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1817850979}
+    - targetCorrespondingSourceObject: {fileID: -3798597711559607027, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1817850978}
+    - targetCorrespondingSourceObject: {fileID: -8383124558419344257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872673432}
+    - targetCorrespondingSourceObject: {fileID: -8383124558419344257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872673431}
+    - targetCorrespondingSourceObject: {fileID: 7833249854982934595, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1178040352}
+    - targetCorrespondingSourceObject: {fileID: 7833249854982934595, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1178040351}
+    - targetCorrespondingSourceObject: {fileID: -3477458294799913631, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1468658211}
+    - targetCorrespondingSourceObject: {fileID: -3477458294799913631, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1468658210}
+    - targetCorrespondingSourceObject: {fileID: -6064153176478479626, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 899527571}
+    - targetCorrespondingSourceObject: {fileID: -6064153176478479626, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 899527570}
   m_SourcePrefab: {fileID: 100100000, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!1 &86306547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6064153176478479626, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306548 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3477458294799913631, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306549 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7833249854982934595, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306550 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8383124558419344257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306551 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3798597711559607027, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4636300777304409883, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2971542036940430761, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4214726985332892257, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6577237425059042219, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5245042011116262203, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6919683763462532184, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5546747315237514756, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6512510688612296998, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306560 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3849762623622064168, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2800250516343163423, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8380157826906577798, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6733177361254619370, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86306564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8513859187771203891, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+  m_PrefabInstance: {fileID: 86306546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &86306573
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306560}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -125435165217083709, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &86306574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &86306576
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306563}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8691780276856062721, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &86306577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &156330989
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306553}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6240159341419647114, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &156330990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &160272069
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306561}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3390558720134950976, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &160272070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +670,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -327,7 +746,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.65776974, z: 0, w: 0.75321907}
-  m_LocalPosition: {x: 0.629, y: 4.435, z: -2.69}
+  m_LocalPosition: {x: 1.63, y: 4.435, z: -2.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -377,6 +796,23 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a0c31b8d2b06642b14d73bdbde6689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+  interactionRange: 3
+  interactableLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  promptUI: {fileID: 661975228}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +940,42 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!64 &532200961
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306555}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5009161486953370047, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &532200962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1001 &557369495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -566,13 +1038,314 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7501788059647666026, guid: bcc8c8f342f71a7439ac0579aa86f030, type: 3}
       propertyPath: m_Name
-      value: casual_Female_K
+      value: BartenderFemale
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc8c8f342f71a7439ac0579aa86f030, type: 3}
+--- !u!64 &587044156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306554}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8367231247473855917, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &587044157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &616773682
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306559}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3163171260390484736, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &616773683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!1 &661975227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 661975232}
+  - component: {fileID: 661975231}
+  - component: {fileID: 661975230}
+  - component: {fileID: 661975229}
+  - component: {fileID: 661975228}
+  m_Layer: 5
+  m_Name: InteractionCanvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &661975228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661975227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f126740cff6db4f929334f1b88f735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionPromptUI
+  panel: {fileID: 800158461}
+  label: {fileID: 1243203314}
+--- !u!114 &661975229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661975227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &661975230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661975227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &661975231
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661975227}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &661975232
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661975227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 800158462}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &800158461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800158462}
+  - component: {fileID: 800158464}
+  - component: {fileID: 800158463}
+  m_Layer: 5
+  m_Name: PromptPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &800158462
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800158461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1243203316}
+  m_Father: {fileID: 661975232}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &800158463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800158461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &800158464
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800158461}
+  m_CullTransparentMesh: 1
+--- !u!64 &810824236
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306557}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3525479140033381557, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &810824237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +1387,438 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832575517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &844634541
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5731547941117289742, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &844634542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &872673431
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306550}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1407623660032272785, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &872673432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &899527570
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6357616769542740209, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &899527571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &1106416882
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6255687079079774844, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &1106416883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &1178040351
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306549}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5746147162638082140, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &1178040352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!1 &1243203313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1243203316}
+  - component: {fileID: 1243203315}
+  - component: {fileID: 1243203314}
+  m_Layer: 5
+  m_Name: PromptLabel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1243203314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243203313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Left Click to Interact
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1243203315
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243203313}
+  m_CullTransparentMesh: 1
+--- !u!224 &1243203316
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243203313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 800158462}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!64 &1468658210
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306548}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5894421597310714776, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &1468658211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!1 &1577433357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577433360}
+  - component: {fileID: 1577433359}
+  - component: {fileID: 1577433358}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1577433358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577433357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1577433359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577433357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1577433360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577433357}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -688,14 +1893,223 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
       propertyPath: m_Name
-      value: uploads_files_2793735_Keys
+      value: Keys
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 65702495048144492, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
+    - {fileID: 5050422055867433376, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971207570}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971207571}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1971207572}
   m_SourcePrefab: {fileID: 100100000, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
+--- !u!64 &1817850978
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306551}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8024611349946882221, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &1817850979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &1960518349
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306552}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6405055333489277325, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &1960518350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!1 &1971207568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4810c98c60ea45e4abfbb49068e54456, type: 3}
+  m_PrefabInstance: {fileID: 1653329461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1971207570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971207568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Leave
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!114 &1971207571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971207568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f126740cff6db4f929334f1b88f735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractionPromptUI
+  panel: {fileID: 800158461}
+  label: {fileID: 1243203314}
+--- !u!64 &1971207572
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971207568}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!64 &2119054675
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306558}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5512361600001258384, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &2119054676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
+--- !u!64 &2141766188
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306564}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7387706064836869012, guid: 17efff222768c6c4db59051166c6ac36, type: 3}
+--- !u!114 &2141766189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86306564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc0bd2db96b7ffe43ad8e3d21c00040b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  interactionPrompt: Left Click to Drink Beer
+  outlineMaterial: {fileID: 2100000, guid: a67c2524bc0d2694cbf5cf5c6d9c21c3, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -706,3 +2120,5 @@ SceneRoots:
   - {fileID: 86306546}
   - {fileID: 557369495}
   - {fileID: 1653329461}
+  - {fileID: 1577433360}
+  - {fileID: 661975232}
