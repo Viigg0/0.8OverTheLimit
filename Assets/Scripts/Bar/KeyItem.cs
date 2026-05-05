@@ -5,6 +5,7 @@ public class KeyItem : PickupItem
 {
     public override void OnInteract(GameObject interactor)
     {
+        if (!BartenderNPC.introComplete) return;
         GameStateManager.Instance.PickupKey();
         base.OnInteract(interactor);
     }

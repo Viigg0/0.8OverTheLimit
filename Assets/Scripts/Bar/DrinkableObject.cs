@@ -6,6 +6,7 @@ public class DrinkableObject : InteractableObject
 {
     public override void OnInteract(GameObject interactor)
     {
+        if (!BartenderNPC.introComplete) return;
         GameStateManager.Instance.AddDrink();
         gameObject.SetActive(false);
     }
