@@ -1,5 +1,7 @@
 # 0.8 Over The Limit 🍺🚗
 
+![0,8 Over The Limit](Assets/Images/titlecard.png)
+
 > A serious transformational game about drunk driving.  
 > Built in Unity 6000.3.11f1 · Game Research & Development Exam Project
 
@@ -38,9 +40,10 @@ Assets/
 │   ├── UI/
 │   └── Vehicles/
 ├── Scenes/
+│   ├── TitleCard        # Title screen
+│   ├── CharacterSetup   # Player character configuration
 │   ├── BarScene         # Stage 1
-│   ├── DrivingScene     # Stage 2
-│   └── EndScene         # Outcome screen
+│   └── Road             # Stage 2
 ├── Scripts/
 │   ├── Bar/             # Drink ordering, bartender dialogue
 │   ├── Core/            # Game state, drunk level, utilities
@@ -117,12 +120,14 @@ This game is built for a **user study**. Evaluation metrics to consider:
 
 ## 👥 Team
 
+**Lead Developers & Game Directors:** Marc, Viktor
+
 | Name | Role |
 |------|------|
 | TBD  | Unity Developer |
 | TBD  | Level Design |
 | TBD  | UI/UX |
-| TBD  | Research & Paper |
+| TBD  | Research and Paper |
 | TBD  | Evaluation |
 
 ---
