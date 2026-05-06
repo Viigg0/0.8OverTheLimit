@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpeechBubbleUI : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class SpeechBubbleUI : MonoBehaviour
     [SerializeField] private CanvasGroup      bubbleGroup;
     [SerializeField] private TextMeshProUGUI  bubbleText;
     [SerializeField] private CanvasGroup      clickPromptGroup;
+    [SerializeField] private Image            mouseIcon;
 
     [Header("Timing")]
     [SerializeField] private float typeSpeed    = 0.035f;
@@ -44,10 +46,11 @@ public class SpeechBubbleUI : MonoBehaviour
         r.anchoredPosition = Vector2.zero;
     }
 
-    public void Show(string message)
+    public void Show(string message, bool showMouseIcon = false)
     {
         Debug.Log($"[SpeechBubbleUI] Show — IsOpen was {IsOpen}, message='{message}'");
         IsOpen = true;
+        if (mouseIcon != null) mouseIcon.gameObject.SetActive(showMouseIcon);
         if (_active != null) StopCoroutine(_active);
         _active = StartCoroutine(ShowRoutine(message));
     }

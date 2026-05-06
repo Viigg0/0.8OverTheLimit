@@ -6,7 +6,7 @@ public class BartenderNPC : InteractableObject
 
     private static readonly string[] IntroLines =
     {
-        "Welcome to 0.8 Over The Limit.",
+        "Welcome to 0.8 Over The Limit. Click on me to continue!",
         "Your blood alcohol content is shown in the top left. It updates in real time.",
         "Your car keys are on the bar. Think carefully before you decide to drive.",
         "Click on me at any time to see how your current BAC level affects your ability to drive."
@@ -26,7 +26,7 @@ public class BartenderNPC : InteractableObject
         }
 
         if (speechBubble != null)
-            speechBubble.Show(IntroLines[0]);
+            speechBubble.Show(IntroLines[0], showMouseIcon: true);
     }
 
     public override string GetInteractionPrompt() => introComplete ? "Check your state" : "Talk";

@@ -43,6 +43,7 @@ public class CarMovement : MonoBehaviour
     private Vector2 delayedInput;
 
     public float CurrentBAC => currentBAC;
+    public bool InputEnabled = false;
 
     void Start()
     {
@@ -76,6 +77,7 @@ public class CarMovement : MonoBehaviour
 
     private Vector2 ReadMoveInput()
     {
+        if (!InputEnabled) return Vector2.zero;
         Vector2 result = Vector2.zero;
 
         Gamepad gamepad = Gamepad.current;
