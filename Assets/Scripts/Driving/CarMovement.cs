@@ -46,6 +46,11 @@ public class CarMovement : MonoBehaviour
 
     void Start()
     {
+        if (GameStateManager.Instance != null)
+        {
+            SetBAC(GameStateManager.Instance.BAC);
+        }
+
         rb = GetComponent<Rigidbody>();
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         swaySeed = Random.Range(0f, 1000f);

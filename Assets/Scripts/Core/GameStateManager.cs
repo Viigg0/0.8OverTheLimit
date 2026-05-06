@@ -4,8 +4,6 @@ using UnityEngine;
 public class GameStateManager : MonoBehaviour
 {
 
-
-
     public static GameStateManager Instance { get; private set; }
 
     // Metric Widmark formula: BAC% = (drinks × 1.4) / (weightKg × r) − (0.015 × hours)
@@ -34,7 +32,6 @@ public class GameStateManager : MonoBehaviour
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
         DontDestroyOnLoad(gameObject);
-        
     }
 
     // Called by CharacterSetupUI after the player fills in the form
@@ -61,6 +58,15 @@ public class GameStateManager : MonoBehaviour
     {
         HasKey = true;
         OnKeyPickedUp?.Invoke();
+    }
+
+    public void ResetBAC()
+    {
+        DrinksConsumed = 0;
+        BAC = 0f;
+        HasKey = false;
+        _firstDrinkTime = -1f;
+        OnBACChanged?.Invoke(BAC);
     }
 
     private void RecalculateBAC()

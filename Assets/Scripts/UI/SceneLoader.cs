@@ -7,6 +7,12 @@ public class SceneLoader : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         Time.timeScale = 1f;
+
+        if (sceneName == "BarScene" && GameStateManager.Instance != null)
+        {
+            GameStateManager.Instance.ResetBAC();
+        }
+        
         SceneManager.LoadScene(sceneName);
     }
 
