@@ -29,6 +29,8 @@ public class CollisionReport : MonoBehaviour
     [Header("Events")]
     [Tooltip("Fires when a reportable collision occurs. Wire this to your UI.")]
     public CollisionEvent onCollision;
+    [Tooltip("Fires when a game-ending collision occurs. Wire this to your game manager.")]
+    public UnityEngine.Events.UnityEvent onGameEnd;
 
     // ── Public data passed to listeners ───────────────────────────────────────
     [System.Serializable]
@@ -71,9 +73,13 @@ public class CollisionReport : MonoBehaviour
 
         float bac = carMovement != null ? carMovement.CurrentBAC : 0f;
         CollisionCategory cat = Categorize(collision.gameObject);
-        CollisionResult result = BuildResult(cat, impactSpeed, bac, collision.gameObject.name);
+        // Ignore collisions with objects that are not Lamp, Car, Building, or Tree
+        if (cat != CollisionCategory.Lamp && cat != CollisionCategory.Car && cat != CollisionCategory.Building && cat != CollisionCategory.Tree)
+            return;
 
+        CollisionResult result = BuildResult(cat, impactSpeed, bac, collision.gameObject.name);
         onCollision?.Invoke(result);
+        onGameEnd?.Invoke();
 
         // Also log to console so you can see it without a UI wired up yet.
         Debug.Log($"[CollisionReport] {result.title} | BAC {bac:F3} | {impactSpeed:F1} m/s\n{result.description}");
