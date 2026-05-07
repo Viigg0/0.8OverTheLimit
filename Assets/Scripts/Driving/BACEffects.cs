@@ -13,11 +13,8 @@ public class BACEffects : MonoBehaviour
     [SerializeField] private float vignetteMaxIntensity = 0.65f;
     [SerializeField] private Color vignetteColor = new Color(0.1f, 0f, 0.15f);
 
-    [Header("Blur (Depth of Field)")]
-    [SerializeField] private float blurMinFocalLength = 300f;
-    [SerializeField] private float blurMaxFocalLength = 2f;
-    [SerializeField] private float blurMinAperture = 32f;
-    [SerializeField] private float blurMaxAperture = 0.8f;
+    [Header("Blur (Gaussian Depth of Field)")]
+    [SerializeField] private float gaussianMaxBlurRadius = 1.5f;
 
     [Header("Smoothing")]
     [SerializeField] private float effectSmoothSpeed = 2f;
@@ -29,6 +26,9 @@ public class BACEffects : MonoBehaviour
 
     void Start()
     {
+        float currentBAC = GameStateManager.Instance != null ? GameStateManager.Instance.BAC : 0f;
+        Debug.Log("BACEffects Start — currentBAC: " + currentBAC + " | GetBlurIntensity: " + GetBlurIntensity(currentBAC));
+
         if (carMovement == null)
         {
             carMovement = GetComponentInParent<CarMovement>();
@@ -56,8 +56,13 @@ public class BACEffects : MonoBehaviour
             depthOfField = postProcessVolume.profile.Add<DepthOfField>(true);
         }
 
+        // Snap to the correct BAC level immediately — BAC is fixed for the entire drive.
+        // Read from GameStateManager directly to avoid CarMovement.Start() ordering dependency.
+        if (GameStateManager.Instance != null)
+            smoothedBac01 = Mathf.Clamp01(GameStateManager.Instance.BAC / 0.15f);
+
         // Ensure the effects start clean.
-        depthOfField.mode.Override(DepthOfFieldMode.Bokeh);
+        depthOfField.mode.Override(DepthOfFieldMode.Gaussian);
         vignette.color.Override(vignetteColor);
         vignette.active = false;
         depthOfField.active = false;
@@ -65,29 +70,28 @@ public class BACEffects : MonoBehaviour
 
     void Update()
     {
-        if (carMovement == null)
+        // Vignette — driven by smoothed bac01, requires carMovement.
+        if (carMovement != null)
         {
-            return;
+            float targetBac01 = GetNormalizedBAC();
+            smoothedBac01 = Mathf.MoveTowards(smoothedBac01, targetBac01, effectSmoothSpeed * Time.deltaTime);
+            bool vignetteActive = smoothedBac01 > effectActivationThreshold;
+            vignette.active = vignetteActive;
+            if (vignetteActive) ApplyVignette(smoothedBac01);
         }
 
-        float targetBac01 = GetNormalizedBAC();
-        smoothedBac01 = Mathf.MoveTowards(smoothedBac01, targetBac01, effectSmoothSpeed * Time.deltaTime);
-
-        bool effectsActive = smoothedBac01 > effectActivationThreshold;
-        vignette.active = effectsActive;
-        depthOfField.active = effectsActive;
-
-        if (effectsActive)
+        // Blur — reads directly from GameStateManager, no carMovement dependency.
+        if (GameStateManager.Instance != null)
         {
-            ApplyVignette(smoothedBac01);
-            ApplyBlur(smoothedBac01);
+            bool blurActive = GameStateManager.Instance.BAC >= 0.040f;
+            depthOfField.active = blurActive;
+            if (blurActive) ApplyBlur();
         }
     }
 
     private float GetNormalizedBAC()
     {
-        // Mirror the same normalization used in CarMovement.
-        return Mathf.Clamp01(carMovement.CurrentBAC / 0.2f);
+        return Mathf.Clamp01(carMovement.CurrentBAC / 0.15f);
     }
 
     private void ApplyVignette(float bac01)
@@ -96,17 +100,27 @@ public class BACEffects : MonoBehaviour
         vignette.intensity.Override(intensity);
     }
 
-    private void ApplyBlur(float bac01)
+    private void ApplyBlur()
     {
-        // As BAC rises: focal length drops and aperture opens wide — creates bokeh blur.
-        float focalLength = Mathf.Lerp(blurMinFocalLength, blurMaxFocalLength, bac01);
-        float aperture = Mathf.Lerp(blurMinAperture, blurMaxAperture, bac01);
+        float bac = GameStateManager.Instance.BAC;
+        if (depthOfField != null)
+        {
+            float intensity = GetBlurIntensity(bac);
+            // Gaussian DOF: blur everything by keeping start/end at 0 and scaling max radius.
+            depthOfField.gaussianStart.Override(0f);
+            depthOfField.gaussianEnd.Override(0.01f);
+            depthOfField.gaussianMaxRadius.Override(Mathf.Lerp(0f, gaussianMaxBlurRadius, intensity));
+            depthOfField.active = bac >= 0.040f;
+        }
+    }
 
-        depthOfField.focalLength.Override(focalLength);
-        depthOfField.aperture.Override(aperture);
-
-        // Focus distance stays at the player's view distance.
-        depthOfField.focusDistance.Override(Mathf.Lerp(10f, 1.5f, bac01));
+    private float GetBlurIntensity(float bac)
+    {
+        if (bac < 0.040f) return 0.0f;
+        if (bac < 0.060f) return 0.2f;
+        if (bac < 0.090f) return 0.4f;
+        if (bac < 0.120f) return 0.7f;
+        return 1.0f;
     }
 
     void OnDestroy()

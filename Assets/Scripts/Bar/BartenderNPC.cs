@@ -29,11 +29,11 @@ public class BartenderNPC : InteractableObject
             speechBubble.Show(IntroLines[0], showMouseIcon: true);
     }
 
-    public override string GetInteractionPrompt() => introComplete ? "Check your state" : "Talk";
+    public override string GetInteractionPrompt() => introComplete ? "Check your state" : "Left Click to Talk";
 
     public override void OnInteract(GameObject interactor)
     {
-        if (Time.time - _lastClickTime < 4f) return;
+        if (Time.time - _lastClickTime < 2f) return;
         _lastClickTime = Time.time;
 
         Debug.Log($"[BartenderNPC] NPC clicked — introIndex={_introIndex}, introComplete={introComplete}");
