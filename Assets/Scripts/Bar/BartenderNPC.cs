@@ -9,7 +9,8 @@ public class BartenderNPC : InteractableObject
         "Welcome to 0.8 Over The Limit. Click on me to continue!",
         "Your blood alcohol content is shown in the top left. It updates in real time.",
         "Your car keys are on the bar. Think carefully before you decide to drive.",
-        "Click on me at any time to see how your current BAC level affects your ability to drive."
+        "Click on me at any time to see how your current BAC level affects your ability to drive.",
+        "You can now click the beers to increase your BAC, or grab your keys and drive home. The choice is yours."
     };
 
     public static bool introComplete;
@@ -42,16 +43,16 @@ public class BartenderNPC : InteractableObject
 
         if (!introComplete)
         {
-            Debug.Log("Before increment: " + _introIndex);
             _introIndex++;
-            Debug.Log("After increment: " + _introIndex);
-            if (_introIndex < IntroLines.Length)
-                Debug.Log("Line to show: " + IntroLines[_introIndex]);
-            if (_introIndex >= IntroLines.Length)
+            if (_introIndex >= IntroLines.Length - 1)
                 introComplete = true;
         }
+        else if (_introIndex < IntroLines.Length)
+        {
+            _introIndex = IntroLines.Length;
+        }
 
-        speechBubble.Show(introComplete ? GetBACLine() : IntroLines[_introIndex]);
+        speechBubble.Show(_introIndex < IntroLines.Length ? IntroLines[_introIndex] : GetBACLine());
     }
 
     private string GetBACLine()
@@ -60,10 +61,10 @@ public class BartenderNPC : InteractableObject
         float bac = GameStateManager.Instance.BAC;
 
         if (bac < 0.005f) return "You are completely sober, you are safe to drive.";
-        if (bac < 0.02f) return "You are under the 0.2 per mille new driver limit but be careful, any more and new drivers face a ban.";
-        if (bac < 0.05f) return "You are approaching the new driver limit of 0.2 per mille, new drivers should not drink any more.";
-        if (bac < 0.08f) return "You are over the legal limit for new drivers at 0.2 per mille and over the general Danish limit of 0.5 per mille. You should not be driving.";
-        if (bac < 0.15f) return "You are over the legal Danish limit of 0.5 per mille. Do not get in that car, fines and a license suspension await you.";
+        if (bac < 0.02f) return "You are under the 0.02 BAC new driver limit but be careful, any more and new drivers face a ban.";
+        if (bac < 0.05f) return "You are approaching the new driver limit of 0.02 BAC, new drivers should not drink any more.";
+        if (bac < 0.08f) return "You are over the legal limit for new drivers at 0.02 BAC and over the general Danish limit of 0.05 BAC. You should not be driving.";
+        if (bac < 0.15f) return "You are over the legal Danish limit of 0.05 BAC. Do not get in that car, fines and a license suspension await you.";
         return "You are dangerously over the limit. You are a serious risk to yourself and everyone on the road.";
     }
 }
